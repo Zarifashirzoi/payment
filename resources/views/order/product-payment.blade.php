@@ -185,7 +185,7 @@
             
                         <!-- CVV -->
                         <div class="">
-                           <label>75.50$</label>
+                           <label>{{ $product->price }}$</label>
                         </div>
                      </div>
                      <!-- Card Number input -->

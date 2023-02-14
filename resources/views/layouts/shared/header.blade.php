@@ -28,8 +28,6 @@
                   <a class="ml-8" href="/about-us">About Us</a>
                   <a class="ml-8" href="/settings">Settings</a>
                   @if(auth()->user())
-                  <a class="ml-8" href="/logout">Logout</a>
-
                   <a class="ml-8 " href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-user').submit();">
                     Logout
                   </a>
